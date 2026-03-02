@@ -1,0 +1,20 @@
+[project]
+name = "comfyui_glm_ocr"
+version = "1.0.0"
+description = "ComfyUI custom node to run GLM-OCR locally — text, formula and table recognition from images"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "transformers>=5.3.0",
+    "Pillow",
+    "torch",
+]
+
+[project.urls]
+Homepage = "https://github.com/Dangocan/comfyui_glm_ocr"
+Repository = "https://github.com/Dangocan/comfyui_glm_ocr"
+
+[tool.comfy]
+PublisherId = "dangocan"
+DisplayName = "ComfyUI GLM-OCR"
+Icon = ""
